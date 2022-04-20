@@ -9,9 +9,16 @@
 }
 
 :root {
+  --cor1: #deb069;
+  --cor2: #c29756;
+  --cor3: #fafaee;
   --white: rgb(251, 249, 249);
   --fonte-titulo: 'Indie Flower', arial, helvetica, sans-serif;
   --fonte-textos: 'Raleway', sans-serif;
+}
+
+body {
+  background: var(--cor3);
 }
 
 
@@ -55,6 +62,7 @@
 
 .container-informacoes h2 {
   font-family: var(--fonte-titulo);
+  color: var(--cor1);
 } 
 
 .container-informacoes p {
@@ -79,7 +87,7 @@
   padding: 10px 0 10px 8px;
   margin: 1rem 0;
   border: none;
-  background-color: #d1d2d2;
+  background-color: #ececec98;
   outline: none;
 }
 
@@ -89,6 +97,29 @@
   border: none;
   cursor: pointer;
   display: block;
-  width: 60%;
+  width: 100%;
   font-size: 1rem;
+  background: var(--cor1);
+  transition: background 0.5s;
+}
+
+.email-button:hover {
+  background: var(--cor2);
+}
+
+/* =========== SEÇÃO DE REDES SOCIAIS =========== */
+.container-social {
+  text-align: center;
+  font-family: var(--fonte-titulo);
+  color: var(--cor1);
+}
+
+.icone-social {
+  font-size: 2rem;
+  color: var(--cor1);
+  transition: color 0.5s;
+}
+
+.icone-social:hover {
+  color: var(--cor2);
 }

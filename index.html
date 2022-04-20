@@ -18,10 +18,6 @@
     <main>
       <!-- SEÇÃO DE INFORMAÇÕES -->
       <section class="container-informacoes">
-        <img
-          src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-          alt="Livro aberto com xicara de café e um oculos por perto. Imagem de Sincerely Media, unsplash."
-        />
         <h2>O que é o Clube do Livro?</h2>
         <p>
           O Clube do Livro é um projeto que busca incentivar a leitura pela
@@ -61,28 +57,76 @@
         >
           <div>
             <label for="nome">Nome*</label>
-            <input type="text" id="nome" required />
+            <input type="text" id="nome" placeholder="seu nome" required />
           </div>
 
           <div>
             <label for="email">E-mail*</label>
-            <input type="email" id="email" required />
+            <input
+              type="email"
+              id="email"
+              placeholder="email@gmail.com"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="whatsapp">Whatsapp*</label>
+            <input
+              type="tel"
+              id="whatsapp"
+              placeholder="(xx) xxxxx-xxxx"
+              required
+            />
           </div>
 
           <div>
             <label for="genero-livro"
               >Você tem um gênero textual favorito?*</label
             >
-            <input type="text" id="genero-livro" required />
+            <input
+              type="text"
+              id="genero-livro"
+              placeholder="gêneros separados com ponto e virgula"
+              required
+            />
           </div>
 
           <input type="hidden" name="_captcha" value="false" />
 
-          <button type="submit" class="email-button">Enviar</button>
+          <button type="submit" class="email-button">
+            Entrar no Clube do Livro
+          </button>
         </form>
       </section>
     </main>
+    <!-- SEÇÃO DE REDES SOCIAIS -->
+    <footer class="container-social">
+      <h2>Siga o Clube do Livro nas mídias sociais</h2>
+      <div class="midias">
+        <a href="#">
+          <span class="icone-social iconify" data-icon="el:facebook"></span>
+        </a>
+        <a href="#">
+          <span
+            class="icone-social iconify"
+            data-icon="ant-design:twitter-square-filled"
+          ></span>
+        </a>
+        <a href="#">
+          <span
+            class="icone-social iconify"
+            data-icon="fa-brands:instagram-square"
+          ></span>
+        </a>
+        <a href="#">
+          <span class="icone-social iconify" data-icon="el:linkedin"></span>
+        </a>
+      </div>
+    </footer>
 
+    <!-- ICONIFY -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <!-- SCRIPT JS -->
     <script src="./assets/js/script.js"></script>
   </body>
