@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@200&display=swap');
 
 * {
   padding: 0;
@@ -11,7 +11,7 @@
 :root {
   --white: rgb(251, 249, 249);
   --fonte-titulo: 'Indie Flower', arial, helvetica, sans-serif;
-  --fonte-textos: 'Dongle', sans-serif;
+  --fonte-textos: 'Raleway', sans-serif;
 }
 
 
@@ -39,6 +39,56 @@
 
 .cabecalho p {
   font-family: var(--fonte-textos);
-  font-size: 1.5rem;
-  line-height: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* ========== SEÇÃO DE INFORMAÇÕES ========== */
+.container-informacoes {
+  padding: 1rem 2rem;
+}
+
+.container-informacoes img {
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+.container-informacoes h2 {
+  font-family: var(--fonte-titulo);
+} 
+
+.container-informacoes p {
+  font-family: var(--fonte-textos);
+  width: 20rem;
+  text-align: justify;
+}
+
+/* ========== FORMULÁRIO DE CAPTAÇÃO ============ */
+.container-formulario {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.form label {
+  font-size: 1rem;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  padding: 10px 0 10px 8px;
+  margin: 1rem 0;
+  border: none;
+  background-color: #d1d2d2;
+  outline: none;
+}
+
+.email-button {
+  border-radius: 0.5rem;
+  padding: 0.5rem 4rem;
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 60%;
+  font-size: 1rem;
 }

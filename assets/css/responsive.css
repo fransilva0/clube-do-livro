@@ -1,0 +1,21 @@
+@media (min-width: 1025px) {
+  main {
+    display: flex;
+  }
+
+  .container-informacoes img {
+    width: 30rem;
+  }
+
+  .container-informacoes p {
+    width: 40rem;
+  }
+
+  .container-formulario {
+    margin-left: 1rem;
+  }
+
+  .form {
+    width: 30rem;
+  }
+}

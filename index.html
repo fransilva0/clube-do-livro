@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clube do Livro | E-books mensais gratuitos</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
     <!-- CABEÇALHO -->
@@ -24,12 +25,10 @@
         <h2>O que é o Clube do Livro?</h2>
         <p>
           O Clube do Livro é um projeto que busca incentivar a leitura pela
-          sociedade visando a melhora intelectual e criativa da mesma.
-        </p>
-        <p>
-          Existimos desde 2000, sendo mais de 20 anos ajudando a sociedade. Em
-          2010 resolvemos expandir o projeto para o digital com a
-          disponibilização de e-books mensais gratuitos.
+          sociedade visando a melhora intelectual e criativa da mesma. Existimos
+          desde 2000, sendo mais de 20 anos ajudando a sociedade. Em 2010
+          resolvemos expandir o projeto para o digital com a disponibilização de
+          e-books mensais gratuitos.
         </p>
         <h2>De onde vem os e-books?</h2>
         <p>
@@ -54,6 +53,34 @@
       </section>
 
       <!-- SEÇÃO DE CAPTAÇÃO DE DADOS -->
+      <section class="container-formulario">
+        <form
+          action="https://formsubmit.co/email@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <div>
+            <label for="nome">Nome*</label>
+            <input type="text" id="nome" required />
+          </div>
+
+          <div>
+            <label for="email">E-mail*</label>
+            <input type="email" id="email" required />
+          </div>
+
+          <div>
+            <label for="genero-livro"
+              >Você tem um gênero textual favorito?*</label
+            >
+            <input type="text" id="genero-livro" required />
+          </div>
+
+          <input type="hidden" name="_captcha" value="false" />
+
+          <button type="submit" class="email-button">Enviar</button>
+        </form>
+      </section>
     </main>
 
     <!-- SCRIPT JS -->
