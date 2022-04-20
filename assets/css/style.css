@@ -33,8 +33,12 @@
 
 .cabecalho h1 {
   font-family: var(--fonte-titulo);
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .cabecalho p {
   font-family: var(--fonte-textos);
+  font-size: 1.5rem;
+  line-height: 1rem;
 }
