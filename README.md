@@ -11,13 +11,13 @@
  
 <p align='center'>
  
-<img alt='Principal linguagem do projeto' src='https://img.shields.io/github/languages/top/fransilva0/clube-do-livro-page?color=56BEB8'>
+<img alt='Principal linguagem do projeto' src='https://img.shields.io/github/languages/top/fransilva0/clube-do-livro?color=56BEB8'>
  
-<img alt='Quantidade de linguagens utilizadas' src='https://img.shields.io/github/languages/count/fransilva0/clube-do-livro-page?color=56BEB8'>
+<img alt='Quantidade de linguagens utilizadas' src='https://img.shields.io/github/languages/count/fransilva0/clube-do-livro?color=56BEB8'>
  
-<img alt='Tamanho do repositório' src='https://img.shields.io/github/repo-size/fransilva0/clube-do-livro-page?color=56BEB8'>
+<img alt='Tamanho do repositório' src='https://img.shields.io/github/repo-size/fransilva0/clube-do-livro?color=56BEB8'>
  
-<img alt='Licença' src='https://img.shields.io/github/license/fransilva0/clube-do-livro-page?color=56BEB8'>
+<img alt='Licença' src='https://img.shields.io/github/license/fransilva0/clube-do-livro?color=56BEB8'>
 </p>
  
 <p align='center'>
